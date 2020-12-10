@@ -5,11 +5,13 @@ Home: http://github.com/leeping/forcebalance/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/forcebalance-feedstock/blob/master/LICENSE.txt)
 
 Summary: Automated force field optimization.
 
+Development: http://github.com/leeping/forcebalance/
 
+Documentation: https://leeping.github.io/forcebalance/doc/html/
 
 Current build status
 ====================
@@ -175,7 +177,4 @@ Feedstock Maintainers
 * [@jaimergp](https://github.com/jaimergp/)
 * [@leeping](https://github.com/leeping/)
 * [@mattwthompson](https://github.com/mattwthompson/)
-
-
-<!-- dummy commit to enable rerendering -->
 
