@@ -31,6 +31,8 @@ requirements:
     - future
     - networkx
     - lxml
+  run_constrained:
+    - openforcefield ==0.8.0
 
 test:
   imports:
