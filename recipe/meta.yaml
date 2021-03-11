@@ -1,6 +1,6 @@
 {% set name = "ForceBalance" %}
-{% set version = "1.7.5" %}
-{% set sha256 = "2fecdad12110dfc00d0a04012c5b433df36736967f726a693de5c4e77af94c89" %}
+{% set version = "1.8.0" %}
+{% set sha256 = "5ec434a86932aeb6213513ac5a4fc98952396ce77fa94731471bcd80fdb073c3" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win]
 
