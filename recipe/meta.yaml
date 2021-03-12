@@ -35,11 +35,8 @@ requirements:
     - openforcefield ==9999999999
 
 test:
-  requires:
-    - openff-toolkit-base
   imports:
     - forcebalance
-    - openff.toolkit
 
 about:
   home: http://github.com/leeping/forcebalance/
