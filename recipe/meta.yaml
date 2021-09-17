@@ -4,7 +4,7 @@
 
 package:
   name: {{ name|lower }}
-  version: 1.9.1
+  version: 1.9.1 
 
 source:
   url: https://github.com/leeping/{{ name }}/archive/{{ version }}.tar.gz
