@@ -1,13 +1,13 @@
 {% set name = "ForceBalance" %}
-{% set version = "openmm-safe-conditional-imports" %}
-{% set sha256 = "36b24ae878baf1333badb66c2bbf968d3712fa0d7f056f23032f5846b30115e1" %}
+{% set version = "1.9.1" %}
+{% set sha256 = "e6ff71b3a1b11387bb806eb5db755fd5e7ab22d0c968add275b984d9af34c397" %}
 
 package:
   name: {{ name|lower }}
-  version: 1.9.1 
+  version: {{ version }}
 
 source:
-  url: https://github.com/leeping/{{ name }}/archive/{{ version }}.tar.gz
+  url: https://github.com/leeping/{{ name }}/archive/v{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
