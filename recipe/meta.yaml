@@ -1,6 +1,6 @@
 {% set name = "ForceBalance" %}
 {% set version = "openmm-safe-conditional-imports" %}
-{% set sha256 = "30d750f9ffbc0b99b013855a9609bbaec04e1f516aded113c3a2d9dc93e0d0a7" %}
+{% set sha256 = "36b24ae878baf1333badb66c2bbf968d3712fa0d7f056f23032f5846b30115e1" %}
 
 package:
   name: {{ name|lower }}
