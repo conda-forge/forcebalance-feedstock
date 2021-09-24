@@ -1,13 +1,13 @@
 {% set name = "ForceBalance" %}
 {% set version = "1.9.2" %}
-{% set sha256 = "fddf45bc2b489af6909b91e599796eb7659444ae9706fade0f88cd001b8646be" %}
+{% set sha256 = "7b2fcda21ed834685e5cb7d702fed5226bb5f452bfc136ecb067a9b8cb8607b8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/leeping/{{ name }}/archive/master.tar.gz
+  url: https://github.com/leeping/{{ name }}/archive/v1.9.2-final.tar.gz
   sha256: {{ sha256 }}
 
 build:
