@@ -1,6 +1,7 @@
+
 {% set name = "ForceBalance" %}
-{% set version = "1.9.0" %}
-{% set sha256 = "b40b5f72371139037deea3889393f4a7b02ce47ab0a23fb91bf6460ea55f53ea" %}
+{% set version = "1.9.2" %}
+{% set sha256 = "58b645ac537351d51f1ed14f2affb201267cbf20fb70c87b8123240c13e2fb2c" %}
 
 package:
   name: {{ name|lower }}
