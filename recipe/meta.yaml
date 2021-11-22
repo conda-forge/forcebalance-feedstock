@@ -36,6 +36,8 @@ requirements:
     - openforcefield ==9999999999
 
 test:
+  requires:
+    - setuptools
   imports:
     - forcebalance
 
