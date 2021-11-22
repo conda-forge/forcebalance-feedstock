@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win]
 
@@ -36,6 +36,8 @@ requirements:
     - openforcefield ==9999999999
 
 test:
+  requires:
+    - setuptools
   imports:
     - forcebalance
 
