@@ -37,10 +37,8 @@ requirements:
 test:
   requires:
     - setuptools
-    - openff-toolkit >=0.10.3|=0.10.0
   imports:
     - forcebalance
-    - openff.toolkit
 
 about:
   home: http://github.com/leeping/forcebalance/
