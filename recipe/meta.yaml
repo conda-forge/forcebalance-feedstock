@@ -1,6 +1,5 @@
-
 {% set name = "ForceBalance" %}
-{% set version = "1.9.2" %}
+{% set version = "1.9.3" %}
 {% set sha256 = "58b645ac537351d51f1ed14f2affb201267cbf20fb70c87b8123240c13e2fb2c" %}
 
 package:
@@ -38,7 +37,7 @@ requirements:
 test:
   requires:
     - setuptools
-    - openff-toolkit
+    - openff-toolkit >=0.10.3|<=0.10.0
   imports:
     - forcebalance
     - openff.toolkit
