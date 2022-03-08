@@ -21,11 +21,11 @@ requirements:
   host:
     - numpy
     - scipy
-    - python
+    - python >=3.6
     - pip
   run:
     - {{ pin_compatible('numpy') }}
-    - python
+    - python >=3.6
     - scipy
     - pymbar
     - future
