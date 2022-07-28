@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win]
 
@@ -27,12 +27,13 @@ requirements:
     - {{ pin_compatible('numpy') }}
     - python
     - scipy
-    - pymbar
+    - pymbar <4
     - future
     - networkx
     - lxml
   run_constrained:
     - openforcefield ==9999999999
+    - openff-toolkit <0.11
 
 test:
   requires:
