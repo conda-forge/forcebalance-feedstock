@@ -1,6 +1,5 @@
 {% set name = "ForceBalance" %}
-{% set version = "1.9.3" %}
-{% set sha256 = "bbb3ac0591e4f7633aa8974492fada8e542fec39c155b5a56a41322f1a85d22f" %}
+{% set version = "1.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -8,10 +7,10 @@ package:
 
 source:
   url: https://github.com/leeping/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: b2988ca6fb103e69eb5a02c8ec55ad9c66bec4d000737b1e6a314d1b88b0064a
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win]
 
@@ -33,7 +32,7 @@ requirements:
     - lxml
   run_constrained:
     - openforcefield ==9999999999
-    - openff-toolkit <0.11.0a0
+    - openff-toolkit >=0.11
 
 test:
   requires:
