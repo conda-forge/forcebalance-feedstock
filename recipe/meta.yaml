@@ -1,5 +1,5 @@
 {% set name = "ForceBalance" %}
-{% set version = "1.9.4" %}
+{% set version = "1.9.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/leeping/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: b2988ca6fb103e69eb5a02c8ec55ad9c66bec4d000737b1e6a314d1b88b0064a
+  sha256: 52dbe9ed45c99e923076fb991286ed51e0229fb022eac5cdf62b6a9c6845dcb2
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win]
 
