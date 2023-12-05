@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/leeping/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 8ae34c4f6f5ad373de00e921e63291b5fc4ecf403b2a53dcf523381070034347
+  sha256: 8aa10c1d9dc2176fa1c4829879466803f554a4eb5383fe1f2af1461d2b126653
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win]
 
