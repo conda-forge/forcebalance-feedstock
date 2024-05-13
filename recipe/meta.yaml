@@ -41,6 +41,7 @@ requirements:
 test:
   requires:
     - setuptools
+    - python =3.12
   imports:
     - forcebalance
 
